@@ -1,0 +1,9 @@
+[functions]
+node_bundler = "esbuild"
+directory = "netlify/functions" # or your custom directory
+
+[[redirects]]
+force = true
+from = "/api/*"
+to = "/.netlify/functions/api/:splat"
+status = 200
