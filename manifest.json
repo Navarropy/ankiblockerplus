@@ -1,0 +1,13 @@
+{
+	"name": "Anki Blocker",
+	"version": "1.0.0",
+	"description": "This extensions blocks websites until you review your anki cards",
+	"manifest_version": 2,
+	"author": "Adriano Navarro",
+    "permissions": [
+        "tabs"
+      ],
+      "background": {
+        "scripts": ["scripts.js"]
+      }
+}
