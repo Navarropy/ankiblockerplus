@@ -2,7 +2,7 @@
 async function getTabs() {
   try {
     // Fetch the configuration from the Express server
-    let response = await fetch("http://localhost:3000/blocker");
+    let response = await fetch("https://ankiserver.adaptable.app/blocker");
     let data = await response.json();
 
     if (data.blocked) {
